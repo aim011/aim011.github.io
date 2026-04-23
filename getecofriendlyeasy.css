@@ -136,3 +136,40 @@ img {
     padding: 10px;
 }
 
+form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    line-height: 35px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #042a0a;
+    color: #817151;
+}
+
+table td {
+    padding: 0.5em;
+    border: 2px solid #042a0a
+    
+}
+
+table th {
+    padding: 0.5em;
+    border: 2px solid #042a0a;
+}
+
+tr:nth-of-type(odd) {
+    background-image: url(back1.jpg);
+}
+
+tr:nth-of-type(even) {
+    background-image: url(back3.jpg);
+}
+
+video {
+    margin: 1em;
+    width: auto;
+    height: 500px;
+}
